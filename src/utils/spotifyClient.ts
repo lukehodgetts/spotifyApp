@@ -1,0 +1,8 @@
+import Spotify from "spotify-web-api-js";
+
+const spotify = new Spotify();
+spotify.setAccessToken(
+  "BQCxME2PHP3-Qa2eV5BnclAoQMDtbxCWq2B5WJF0xqQbqDTK7kYiba4CPiikTmdV5yALOi0a1EYoMPXwIk7Yh2GdgH964RUjX9JZ1U4ikm7sRZKnlSTMTGC5nQ8CSB4Y4773beFhU3aF3tPmi3id4w9khtqkTK2RBGfFScod2M7B0Fepp32SEYQCkatyTDUpjYmebbOKPCiCLwmeRZPr8UBU85yUyGWNpIMaolM01w4e6zrJaNsyuKny0j4Qll-_0E-zisRSBT4"
+);
+
+export default spotify;
